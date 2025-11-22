@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cpath fill='%23ffffff' fill-opacity='0.22' d='M0 0h160v160H0z'/%3E%3C/svg%3E");
+  background-size: 120px 120px;
+}
+
+.grain {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.18), transparent 55%),
+    radial-gradient(circle at 80% 10%, rgba(255, 255, 255, 0.12), transparent 55%),
+    radial-gradient(circle at 10% 90%, rgba(244, 162, 89, 0.18), transparent 45%);
+}
